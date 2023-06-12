@@ -1,0 +1,47 @@
+{
+  "name": "@harvard-lts/mirador-analytics-plugin",
+  "version": "0.1.0",
+  "description": "mirador-analytics-plugin React component",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist && rm -rf es",
+    "prepublishOnly": "npm run build",
+    "build": "parcel build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.0.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "parcel": "^2.8.3",
+    "url": "^0.11.0"
+  },
+  "author": "",
+  "homepage": "",
+  "license": "Apache 2.0",
+  "repository": "",
+  "keywords": [
+    "react-component"
+  ],
+  "dependencies": {
+    "mirador": "^3.3.0",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
