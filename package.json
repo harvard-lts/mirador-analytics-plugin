@@ -39,6 +39,7 @@
     "react-component"
   ],
   "dependencies": {
+    "jquery": "^3.7.0",
     "mirador": "^3.3.0",
     "prop-types": "^15.8.1",
     "react": "^16.14.0",
