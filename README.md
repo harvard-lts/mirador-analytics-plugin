@@ -28,7 +28,7 @@ Configurations for this plugin are injected when Mirador is initialized under th
 
 | Config Key | Type | Description |
 | --- | --- | --- |
-| `containerID` | string/url | ID assigned in [Google Tag Manager](https://tagmanager.google.com/), formatted as `GTM-XXXXXX` (this can be found in the top right corner of the Workspace page) |
+| `containerID` | string | ID assigned in [Google Tag Manager](https://tagmanager.google.com/), formatted as `GTM-XXXXXX` (this can be found in the top right corner of the Workspace page) |
 
 ## Contribute
 Mirador's development, design, and maintenance is driven by community needs and ongoing feedback and discussion. Join us at our regularly scheduled community calls, on [IIIF slack #mirador](http://bit.ly/iiif-slack), or the [mirador-tech](https://groups.google.com/forum/#!forum/mirador-tech) and [iiif-discuss](https://groups.google.com/forum/#!forum/iiif-discuss) mailing lists. To suggest features, report bugs, and clarify usage, please submit a GitHub issue.
