@@ -7,7 +7,7 @@ const config = {
     loadedManifest: 'https://purl.stanford.edu/sn904cj3429/iiif/manifest',
   }],
   miradorAnalyticsPlugin: {
-    containerID:'GTM-XXXXXX',
+    containerId:'GTM-XXXXXX',
   },
 };
 
