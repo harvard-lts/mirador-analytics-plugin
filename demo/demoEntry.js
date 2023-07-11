@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
         manifestId: "https://iiif.lib.harvard.edu/manifests/drs:4997399",
       },
     ],
+    miradorAnalyticsPlugin: {
+      containerId:'GTM-XXXXXXX',
+    },
   };
 
   const plugins = [...Plugin];
