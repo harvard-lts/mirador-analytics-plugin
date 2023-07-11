@@ -1,5 +1,5 @@
-import MiradorHarvardAnalyticsPlugin from "./plugins/MiradorHarvardAnalytics";
+import MiradorAnalyticsPlugin from "./plugins/MiradorAnalytics";
 
-export { MiradorHarvardAnalyticsPlugin };
+export { MiradorAnalyticsPlugin };
 
-export default [MiradorHarvardAnalyticsPlugin];
+export default [MiradorAnalyticsPlugin];
