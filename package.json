@@ -5,7 +5,7 @@
   "keywords": [
     "react-component"
   ],
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "mirador-analytics-plugin React component",
   "module": "dist/es/index.js",
   "files": [
