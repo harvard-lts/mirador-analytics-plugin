@@ -9,9 +9,7 @@ const mapStateToProps = (state, { windowId }) => ({
 class miradorAnalytics extends Component {
   render() {
 
-    return (
-      <></>
-    );
+    return ("");
   }
 
   componentDidMount() {
